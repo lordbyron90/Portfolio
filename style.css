@@ -189,12 +189,21 @@ body,html{
     background: #fafafa/*#212121*/;
 }
 
+.main_wr{
+    padding-top: 270px;
+    position: relative;
+}
 
 .content{
     margin: 0 auto;
     width: 1240px;
 }
-
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
 
 .header_wr{
     position:fixed;
@@ -227,7 +236,42 @@ body,html{
     clear:both;
 }
 
+.project_list li{
+    height: 60px;
+    width: 60px;
+    background:pink;
+}
 
+.toggle_wr{
+    width: 60px;
+    height: 60px;
+}
+
+.main .content{
+    text-align: center;
+}
+
+.main .description{
+    text-align: left;
+}
+
+.hero_wr{
+    display: inline-block;
+    width: calc(100% - 200px);
+    height: calc(100vh - 270px);
+    background: red;
+}
+
+.project_list{
+    width: 60px;
+    height: 60px;
+}
+
+.project_list:after{
+    content: "";
+    display: block;
+    clear: both;
+}
 
 
 
